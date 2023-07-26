@@ -84,8 +84,111 @@
             </p>
         </section>
         <section id="answers" class="container">
-
+            <section>
+            <form id="name" name="form1">
+             <input type="text" id="fname" name="fname" value="John">
+             <label for="fname">First Name:</label><br>
+             <input type="text" id="lname" name="lname" value="Doe">
+             <label for="lname">Last Name:</label><br>
+             </form>
+             </section>
+<br>
+             <section>
+              <form id="form2" name="form2">
+                <input type="text" id="fname" name="fname" value="John">
+             <label for="fname">First Name:</label><br>
+             <input type="text" id="middlename" name="middlename" value="Middle Name" disabled><br>
+             <input type="text" id="lname" name="lname" value="Doe">
+             <label for="lname">Last Name:</label><br>
+              </form>
+             </section>
+             <br>
+             <section>
+                <form id="form3" name="form3">
+                    <input type="text" id="fname" name="fname" value="John">
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="lname" name="lname" value="Doe">
+                    <label for="lname">Last Name:</label><br>
+                    <input type="password" id="pwd" name="pwd">
+                    <label for="pwd">Password</label>
+                </form>
+             </section>
+<br>
+               <section> Leave A Review:
+                <form id="form4" name="form4">
+                <textarea name="review" cols="30" size="50"></textarea>
+                <input type="reset">
+                </form>
         </section>
+<br>
+          <section> Leave A Review: 
+           <form id="form5" name="form5">
+            <textarea name="review" cols="30" size="100"></textarea>
+           </form>
+          </section>
+<br>
+         <section> Date During Covid-19 
+            <form id="form6" name="form6">
+                <label for="datemax">Select</label>
+             <input type="date" id="datemax" name="datemax" max="2023-05-11">
+            </form>
+         </section>
+<br>
+         <section> All HTML Files On Current Page ? 
+            <form id="form7" name="form7">
+             <input type="file" id="myfile" name="myfile">
+             <label for="myfile"></label><br>
+             <input type="file" id="myfile" name="myfile">
+             <label for="myfile"></label><br>
+             <input type="file" id="myfile" name="myfile">
+             <label for="myfile"></label>
+            </form>
+         </section>
+<br>
+         <section> Search a Question: 
+            <form id="form8" name="form8">
+             <input placeholder="Type question here" type="text">
+            </form>
+         </section>
+<br>
+            <section> Your Favorite Number : 
+                <form id="form9" name="form9">
+               <input type="number" id="form9" value="favnumber">
+               <label for="number"></label>
+            </form>
+            </section>
+<br>
+
+                <section> Select a Number between 0 & 100
+                    <form id="form10" name="form10">
+                     <input type="number" id="numbermin" name="datamin" min="0" max="100">
+                     <input type="number" id="numbermax" name="datemax" min="0" max="100"> 
+                    </form>
+                </section>
+<br>
+                <section> 
+                    <form id="form11" name="form11">
+                        <input type="text" id="fname" name="fname" value="John">
+                        <label for="fname">First Name:</label><br>
+                        <input type="text" id="lname" name="lname" value="Doe">
+                        <label for="lname">Last Name:</label><br> 
+                        <input type="image" src="../logo_ywca_32by32.png" alt="submit" width="32px;" height="32px;">
+                    </form>
+                </section>
+<br>
+                <section> Your Favorite Fruit ? 
+                    <form id="form12" name="form12">
+                        <input list="fruits" autocomplete="on">
+                        <datalist id="fruits">
+                            <option value="Bananas">Bananas</option>
+                            <option value="Strawberries">Strawberries</option>
+                            <option value="Pineapples">Pineapples</option>
+                            <option value="Apples">Apples</option>
+                        </datalist>
+                     <textarea name="review" cols="30" size="50"></textarea>
+
+                    </form>
+                </section>
         <script src="" async defer></script>
     </body>
 </html>

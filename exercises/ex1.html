@@ -48,32 +48,77 @@
                 should ask the user for the current date and time. The input should be a datetime-local.
             </p>
             <p>
-                Inside the section with an id of answers, create a form with an id of form8. The form
-                should ask the user for their email. The input should be an email input.
-            </p>
-            <p>
-                Inside the section with an id of answers, create a form with an id of form9. The form
-                should ask the user for a word document. The input should be a file input.
-            </p>
-            <p>
-                Inside the section with an id of answers, create a form with an id of form10. The form
-                should ask the user for a number using a number input.
-            </p>
-            <p>
-                Inside the section with an id of answers, create a form with an id of form11. The form 
-                should ask the user for a year <i>and</i> month. Note: The month field is not supported
-                by Firefox, Safari, or IE, so it may appear as just a text box.
-            </p>
-            <p>
-                Inside the section with an id of answers, create a form with an id of form12. The form
-                should ask the user for their login information. This should include a username and a 
-                password. The username should be a text input, but the password should use a password
-                input.
-            </p>
-        </section>
-        <section id="answers" class="container">
 
+
+        <section id="answers" class="container">
+            <p><form id="form1">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+            </form></p>
+            
+            <section> What City Would You Visit First ? 
+            <p><form id="form2">
+              <input type="radio" id="form2" name="city" value="">
+              <label for="form2">Los Angeles</label><br>
+              <input type="radio" id="form2" name="city" value="">
+              <label for="form2">Houston</label><br>
+              <input type="radio" id="form2" name="city" value="">
+              <label for="form2">Phoenix</label><br>
+              <input type="radio" id="form2" name="city" value="">
+              <label for="form2">Las Vegas</label><br>
+              <input type="radio" id="form2" name="city" value="">
+              <label for="form2">Miami</label>
+            </form></p>
         </section>
+
+        <section> What City Would You Visit First ? 
+            <form id="form3">
+                <input type="checkbox" id="form3" name="city" value="">
+              <label for="form3">Los Angeles</label><br>
+              <input type="checkbox" id="form3" name="city" value="">
+              <label for="form3">Houston</label><br>
+              <input type="checkbox" id="form3" name="city" value="">
+              <label for="form3">Phoenix</label><br>
+              <input type="checkbox" id="form3" name="city" value="">
+              <label for="form3">Las Vegas</label><br>
+              <input type="checkbox" id="form3" name="city" value="">
+              <label for="form3">Miami</label><br>
+            </form>
+        </section>
+    <br>
+        <section> What Is Your Favorite Sports Team ? 
+            <form id="form4">
+                <select> 
+                 <option value="Packers">Packers</option>
+                 <option value="Chicago Bears">Chicago Bears</option>
+                 <option value="Denver Broncos">Denver Broncos</option>
+                </select>
+            </form>
+            </section>
+<br>
+            <section> What Is Your Favorite Color ? 
+                <form id="form5">
+                    <input type="color" id="form5" name="favcolor" value="pink">
+                    <label for="favcolor"></label>
+                </form>
+            </section>
+<br>
+            <section> What Is Today's Date ? 
+                <form id="form6">
+                    <input type="date" id="datemax" name="datemax" max="1979-12-31"><br>
+                    <label for="datemax"></label>
+                </form>
+            </section>
+<br>
+            <section> Date & Time 
+                <form id="form7">
+                    <input type="datetime-local" id="datetime" name="datetime">
+                    <label for="datetime"></label>
+
+                </form>
+            </section>
         <script src="" async defer></script>
     </body>
 </html>
